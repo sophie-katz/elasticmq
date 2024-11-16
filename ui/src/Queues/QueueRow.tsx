@@ -13,7 +13,7 @@ function QueueTableRow(props: { row: QueueMessagesData }) {
     function ExpandableArrowButton(props: { isExpanded: boolean }) {
         return <IconButton aria-label="open-details" size="small"
                            onClick={() => setIsExpanded(prevState => !prevState)}>
-            {props.isExpanded ? <KeyboardArrowRight/> : <KeyboardArrowDown/>}
+            {props.isExpanded ? <KeyboardArrowDown/> : <KeyboardArrowRight/>}
         </IconButton>
     }
 
